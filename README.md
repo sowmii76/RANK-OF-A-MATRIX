@@ -16,12 +16,14 @@ Display the rank of matrix A using the print() statement.
 ### Step 5:
 End the program.
 ## Program:
+```
 #Devoloped by: Sowmiya G
 #Registernumber:2305002023
 import numpy as np
 A = np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
 rank = np.linalg.matrix_rank(A)
 print(rank)
+```
 ## Output:
 ![image](https://github.com/sowmii76/RANK-OF-A-MATRIX/assets/146059163/8c74b20d-f2c3-437f-8e1d-b77d7b3c80f2)
 
